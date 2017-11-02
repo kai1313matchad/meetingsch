@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6">
                     <div class="dashboard-div-wrapper bk-clr-five">
-                        <a href="#">
+                        <a href="<?php echo base_url('Post/edit')?>">
                             <i  class="fa fa-edit dashboard-div-icon" ></i>
                         </a>                        
                         <div class="progress progress-striped active">
