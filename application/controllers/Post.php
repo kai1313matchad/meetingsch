@@ -22,5 +22,13 @@
 			$data['content']='menu/content/post_create';
 			$this->load->view('menu/layout/wrapper',$data);
 		}
+
+		public function edit()
+		{
+			$data['title']='Meeting Scheduler - Halaman Utama';
+			$data['menu']='dash_post';
+			$data['content']='menu/content/post_edit';
+			$this->load->view('menu/layout/wrapper',$data);
+		}
 	}
 ?>
